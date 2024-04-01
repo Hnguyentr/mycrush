@@ -8,6 +8,9 @@
     height: 950px;
     animation: col 5s infinite;
 }
+div{
+    animation: col 5s infinite;
+}
 @keyframes col{
     00%{
         color: red;
