@@ -6,4 +6,22 @@
     display: flex;
     background-color: rgb(82, 86, 89);
     height: 950px;
+    animation: col 5s infinite;
+}
+@keyframes col{
+    00%{
+        color: red;
+    }
+    25%{
+        color: green;
+    }
+    50%{
+        color: yellow;
+    }
+    75%{
+        color: green;
+    }
+    100%{
+        color: red;
+    }
 }
